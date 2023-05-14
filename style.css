@@ -13,7 +13,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 body {
-    /* display: flex; */
+    background-color: #bef7f1;
 }
 #navbar {
     padding: 20px;
@@ -109,13 +109,34 @@ body {
     margin-bottom: 15px;
     border-radius: 5px;
 }
+.main-section a:link {
+    color: #2e3078;
+    font-weight: 700;
+}
+.main-section a:visited {
+    color: #2e3078;
+}
+.main-section a:active {
+    color: #2e3078;
+}
+.main-section a:hover {
+    color: #4a4d9b;
+}
 
 
-
-
-
-/* @media (min-width: 600px) {
-    html {
-        
+@media (min-width: 880px) {
+    .hidden {
+        display: block;
     }
-} */
+    .nav-hidden {
+        width: 300px;;
+    }
+    #navbar-button {
+        display: none;
+    }
+    #main-doc {
+        margin-left: 300px;
+        padding: 22px 5%;
+    }
+
+}
